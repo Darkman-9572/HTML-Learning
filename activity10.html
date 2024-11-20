@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwick Smith - Web Developer & Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2b3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 20px;
+            color: #2b3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            margin-top: 30px;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .radio-group {
+            margin-top: 10px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        .checkbox-group {
+            margin-top: 10px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 1000px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Riwick Smith - Web Developer & Designer</h1>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Riwick Smith, a passionate web developer with a love for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and more.</p>
+
+    <h2>My Projects</h2>
+    <h3>Project 1</h3>
+    <p>A description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h3>Project 2</h3>
+    <p>A description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Project Statistics</h2>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Technologies</th>
+            <th>Completion Date</th>
+        </tr>
+        <tr>
+            <td>Project 1</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>June 2024</td>
+        </tr>
+        <tr>
+            <td>Project 2</td>
+            <td>React, Node.js</td>
+            <td>August 2024</td>
+        </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+       
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email...">
+       
+        <div class="radio-group">
+            <label>Preferred Contact Method:</label>
+            <input type="radio" id="email-method" name="contact-method" value="email">
+            <label for="email-method">Email</label>
+            <input type="radio" id="phone-method" name="contact-method" value="phone">
+            <label for="phone-method">Phone</label>
+        </div>
+       
+        <div class="checkbox-group">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+       
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2024 Riwick Smith. All rights reserved.
+</footer>
+
+</body>
+</html>

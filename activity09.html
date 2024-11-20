@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            border: 1px solid grey;
+            width: fit-content;
+            padding: 10px;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            font-size: 30px;
+            text-align: center;
+
+        }
+        button{
+            background-color: green;
+            color: white;
+            border-radius: 1px;
+            width:280px;
+            height: 50px;
+            padding: 10px;
+        }
+    
+        div{
+            border-radius: 10px;
+            padding: 10px;
+        
+        }
+        input,select,textarea{
+            width: 300px;
+        }
+        input,select{
+            height: 30px;
+        }
+        textarea{
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>Registration Form</h2>
+    <form action="">
+        <div>
+            <label for="firstname"> Name</label> <br><input type="text" id="firstname" required>
+        </div>
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="pass">Password</label> <br>
+            <input type="password" >
+        </div>
+    
+        
+        <div>
+            <label for="gender">Gender</label> <br>
+            <select name="gender" id="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">female</option> 
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            Bio <br>
+            <textarea name="textarea" id="textarea"></textarea>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
